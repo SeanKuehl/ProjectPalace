@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Set this to the main language of your site -->
+<head>
+    <meta charset="utf-8">
+
+    <title>Sean Kuehl</title>
+
+    <!-- Enter a brief description of your page -->
+    <meta name="description" content="Welcome to my page!">
+
+<style>
+
+body {
+  background-color: lightblue;
+}
+
+div {
+  margin-bottom: 100px;
+}
+
+p {
+  font-size: 25px;
+  font-family: "Trebuchet MS", sans-serif;
+
+}
+
+li {
+  font-size: 25px;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+input {
+  margin-bottom: 50px;
+}
+
+textarea {
+  margin-bottom: 50px;
+}
+
+
+
+<!-- I'll seperate things with witespace by using divs, couldn't find a better option-->
+<!-- I need to flesh out, stylize elements and complete the page but I have the basics down-->
+</style>
+
+    
+</head>
+<body>
+
+
+<div align="center">
+<img src="logo.png" alt="ProjectPalace Logo" width="200" height="200">
+<h1> Welcome To ProjectPalace! </h1>
+</div>
+
+
+
+<div align = "center">
+<p> Do you have a hobby project you'd like some help with? Then you've come to the right place!</p>
+<p> ProjectPalace is a place where people can post their hobby projects and network with those who are willing to help!</p>
+<p> Need someone to look over that book you're writing? Or someone to help with that game you've always wanted to make?</p>
+<p> Then look no further! ProjectPalace is the place for you!</p>
+
+</div>
+
+<div align="center">
+
+<h2> Be the first to post about your hobby project! </h2>
+
+<form action="https://formsubmit.co/teddscottfelt@gmail.com" method="POST">
+	 <label for="name_of_project">Name of project:</label><br />
+     <input type="text" name="name_of_project" size="25" required><br />
+	 
+	 <label for "description_of_project">Description of project:</label><br />
+	 <textarea name="description_of_project" rows="4" cols="50"></textarea><br />
+	 
+	 <label for "description_of_assistance">Description of help you need:</label><br />
+	 <textarea name="description_of_assistance" rows="4" cols="50"></textarea><br />
+	 <!-- the name="x" will show as x: "what they wrote" in the emails I get. So that's good to know-->
+     
+	 <!--<input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">-->
+	 <!-- the https:// will be the name of the github pages site, after that just do the path to the html file -->
+     <button type="submit">Send</button>
+</form> 
+
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
